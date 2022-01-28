@@ -27,7 +27,8 @@ body {
 }   
 
 header {
-    background-color: var(--cor2);
+    background: url(../imagens/capa2.jpg),
+				linear-gradient(60deg,#25C0DB,#2602db);
     min-height: 110px;
     text-align: center;
     padding-top: 10px;
@@ -153,7 +154,7 @@ article > img {
     box-shadow: 0px 0px 3px rgba(47, 4, 117, 0.418); 
 }
 
-footer{
+footer {
     background-color: var(--cor3);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
