@@ -83,13 +83,13 @@ main > img {
 
 main h1  {
     font-family: var(--fonte-especial);
-    font-size: 2.5em;
+    font-size: 2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.096);
  }
 
  main h2 {
      font-family: var(--fonte-especial);
-     font-size: 2em;
+     font-size: 1.6em;
      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.075);
      padding: 6px;
         
@@ -97,7 +97,7 @@ main h1  {
 
 main p  {
     font-family: var(--fonte-normal);
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: justify;
     margin: 15px 0px;
     text-indent: 30px;
@@ -106,6 +106,11 @@ main p  {
 main strong {
     color: var(--cor4);
     font-weight: bold;
+}
+
+main class {
+    font-weight: bold;
+    color: black;
 }
 
 main a {
